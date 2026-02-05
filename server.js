@@ -9,8 +9,8 @@ app.get("/", (req, res) => {
 
 app.get("/message", (req, res) => {
   return res.status(200).json({
-    loading: true,
-    message: "must hai bhai",
+    Success: true,
+    message: "must hai bhai ho gya server deploy",
   });
 });
 
