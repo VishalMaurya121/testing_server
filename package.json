@@ -1,0 +1,17 @@
+{
+  "name": "helloserver",
+  "version": "1.0.0",
+  "description": "mere apna server",
+  "license": "ISC",
+  "author": "Vishal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
